@@ -7,14 +7,16 @@
         mc:Ignorable="d"
         Title="Register" Height="447" Width="576">
     <Grid Margin="74,10,131,8">
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="193,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="109"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="193,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="109"/>
+        <TextBox Name="UsernameBox" HorizontalAlignment="Left" Height="20" Margin="193,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="109"/>
+        <PasswordBox Name="passwordBox" HorizontalAlignment="Left" Height="20" Margin="193,0,0,0" VerticalAlignment="Center" Width="109"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="101,161,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" Width="80"/>
         <TextBlock HorizontalAlignment="Left" Height="23" Margin="101,0,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Center" Width="80"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="193,233,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="109"/>
+        <TextBox  Name="EmailBox" HorizontalAlignment="Left" Height="20" Margin="193,233,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="109"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="105,233,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.298,0.601"/>
         <TextBlock HorizontalAlignment="Center" Height="24" Margin="0,94,0,0" TextWrapping="Wrap" Text="Register Account" FontWeight="ExtraBlack" VerticalAlignment="Top" Width="129"/>
-        <Button  Name="registerbutton" Content="Register" HorizontalAlignment="Left" Margin="210,272,0,0" VerticalAlignment="Top"/>
+        <Button  Name="registerbutton" Content="Register" HorizontalAlignment="Left" Margin="210,272,0,0" VerticalAlignment="Top" Click="registerbutton_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="193,123,0,0" TextWrapping="Wrap" Name="NameBox" Text="" VerticalAlignment="Top" Width="109"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="105,123,0,0" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top" Width="94"/>
 
     </Grid>
 </Window>

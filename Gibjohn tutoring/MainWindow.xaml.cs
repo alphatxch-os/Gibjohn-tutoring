@@ -38,7 +38,7 @@ namespace Gibjohn_tutoring
             string username = UsernameTextBox.Text;
             string password = PasswordBox.Password;
 
-            string connStr = "server=ND-COMPSCI;username=TL_S2201761;database=TL_S2201761_gj;port=3306;password=Notre021205";
+
 
             try
             {
@@ -73,4 +73,5 @@ namespace Gibjohn_tutoring
         }
     }
 }
+
 
